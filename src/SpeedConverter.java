@@ -9,7 +9,7 @@ public class SpeedConverter {
         if (kilometersPerHour < 0){
             return -1;
         } else {
-           return Math.round(kilometersPerHour / 1.609);
+           return Math.round(kilometersPerHour / KILOMETERS_TO_MILES_CONVERSION_FACTOR);
         }//else
     }//toMilesPerHour
 
